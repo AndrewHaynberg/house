@@ -3,8 +3,12 @@ import java.awt.*;
 /**
  * A square that can be manipulated and that draws itself on a canvas.
  * 
- * @author  Michael Kšlling and David J. Barnes
- * @version 2016.02.29
+ * Change the constructor to default at 0,0.
+ * change defulat color to red.
+ * change default size to 40.
+ * 
+ * @author  Andrew Haynberg
+ * @version 2018.09.16
  */
 
 public class Square
@@ -20,9 +24,9 @@ public class Square
      */
     public Square()
     {
-        size = 60;
-        xPosition = 310;
-        yPosition = 120;
+        size = 40;
+        xPosition = 0;
+        yPosition = 0;
         color = "red";
         isVisible = false;
     }

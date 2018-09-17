@@ -3,8 +3,12 @@ import java.awt.*;
 /**
  * A person that can be manipulated and that draws itself on a canvas.
  * 
- * @author  Michael Kšlling and David J. Barnes
- * @version 2016.02.29
+ * Change the constructor to default at 0,0.
+ * 
+ * change default size to 70,35.
+ * 
+ * @author  Andrew Haynberg
+ * @version 2018.09.16
  */
 
 public class Person
@@ -21,10 +25,10 @@ public class Person
      */
     public Person()
     {
-        height = 60;
-        width = 30;
-        xPosition = 280;
-        yPosition = 190;
+        height = 70;
+        width = 35;
+        xPosition = 0;
+        yPosition = 0;
         color = "black";
         isVisible = false;
     }
